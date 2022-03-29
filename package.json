@@ -1,0 +1,15 @@
+{
+  "name": "macchiato-monster-tables",
+  "version": "1.0.0",
+  "description": "Randoms tables for the rpg Macchiato Monster (VF)",
+  "main": "index.js",
+  "bin": {
+    "mmt": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julien1988",
+  "license": "ISC"
+}
