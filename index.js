@@ -17,7 +17,7 @@ function getStuffAndFood(number) {
     return randomTables.stuffAndFood[number];
 }
 
-getStuffAndFood(getNumber);
+// getStuffAndFood(getNumber);
 
 // 2
 
@@ -26,7 +26,7 @@ function wealthAndValuables (number) {
     return randomTables.wealthAndValuables[number];
 }
 
-wealthAndValuables(getNumber);
+// wealthAndValuables(getNumber);
 
 
 // 3
@@ -36,7 +36,7 @@ function  handToHandWeapons(number){
     return randomTables.handToHandWeapons[number];
 }
 
-handToHandWeapons(getNumber);
+// handToHandWeapons(getNumber);
 
 // 4
 
@@ -45,9 +45,9 @@ function armors(number){
     return randomTables.armors[number];
 }
 
-armors(getNumber);
+// armors(getNumber);
 
-// 2
+// 5
 
 
 function rangedWeapons(number){
@@ -55,9 +55,9 @@ function rangedWeapons(number){
     return randomTables.rangedWeapons[number];
 }
 
-rangedWeapons(getNumber);
+// rangedWeapons(getNumber);
 
-// 2
+// 6
 
 
 function magicTrinkets(number){
@@ -65,9 +65,9 @@ function magicTrinkets(number){
     return randomTables.magicTrinkets[number];
 }
 
-magicTrinkets(getNumber);
+// magicTrinkets(getNumber);
 
-// 2
+// 7
 
 
 function legacy(number){
@@ -75,9 +75,9 @@ function legacy(number){
     return randomTables.legacy[number];
 }
 
-legacy(getNumber);
+// legacy(getNumber);
 
-// 2
+// 8
 
 
 function faith(number){
@@ -85,9 +85,9 @@ function faith(number){
     return randomTables.faith[number];
 }
 
-faith(getNumber);
+// faith(getNumber);
 
-// 2
+// 9
 
 
 function monsterMotivations(number){
@@ -95,9 +95,9 @@ function monsterMotivations(number){
     return randomTables.monsterMotivations[number];
 }
 
-monsterMotivations(getNumber);
+// monsterMotivations(getNumber);
 
-// 2
+// 10
 
 
 function pnjMotivations(number){
@@ -105,9 +105,9 @@ function pnjMotivations(number){
     return randomTables.pnjMotivations[number];
 }
 
-pnjMotivations(getNumber);
+// pnjMotivations(getNumber);
 
-// 2
+// 11
 
 
 function enemiesMoral(number){
@@ -115,9 +115,9 @@ function enemiesMoral(number){
     return randomTables.enemiesMoral[number];
 }
 
-enemiesMoral(getNumber);
+// enemiesMoral(getNumber);
 
-// 2
+// 12
 
 
 function mercenarySkills(number){
@@ -125,9 +125,9 @@ function mercenarySkills(number){
     return randomTables.mercenarySkills[number];
 }
 
-mercenarySkills(getNumber);
+// mercenarySkills(getNumber);
 
-// 2
+// 13
 
 
 function dungeonExploration(number){
@@ -135,9 +135,9 @@ function dungeonExploration(number){
     return randomTables.dungeonExploration[number];
 }
 
-dungeonExploration(getNumber);
+// dungeonExploration(getNumber);
 
-// 2
+// 14
 
 
 function weather(number){
@@ -145,9 +145,9 @@ function weather(number){
     return randomTables.weather[number];
 }
 
-weather(getNumber);
+// weather(getNumber);
 
-// 2
+// 15
 
 
 function explorationOfTheWilderness(number){
@@ -155,9 +155,9 @@ function explorationOfTheWilderness(number){
     return randomTables.explorationOfTheWilderness[number];
 }
 
-explorationOfTheWilderness(getNumber);
+// explorationOfTheWilderness(getNumber);
 
-// 2
+// 16
 
 
 function huntingAndGathering(number){
@@ -165,9 +165,9 @@ function huntingAndGathering(number){
     return randomTables.huntingAndGathering[number];
 }
 
-huntingAndGathering(getNumber);
+// huntingAndGathering(getNumber);
 
-// 2
+// 17
 
 
 function campEvents(number){
@@ -175,9 +175,9 @@ function campEvents(number){
     return randomTables.campEvents[number];
 }
 
-campEvents(getNumber);
+// campEvents(getNumber);
 
-// 2
+// 18
 
 
 function fastTravel(number){
@@ -185,9 +185,9 @@ function fastTravel(number){
     return randomTables.fastTravel[number];
 }
 
-fastTravel(getNumber);
+// fastTravel(getNumber);
 
-// 2
+// 19
 
 
 function catchUpTheGroup(number){
@@ -195,9 +195,9 @@ function catchUpTheGroup(number){
     return randomTables.catchUpTheGroup[number];
 }
 
-catchUpTheGroup(getNumber);
+// catchUpTheGroup(getNumber);
 
-// 2
+// 20
 
 
 function complications(number){
@@ -205,7 +205,7 @@ function complications(number){
     return randomTables.complications[number];
 }
 
-complications(getNumber);
+// complications(getNumber);
 
 
 
