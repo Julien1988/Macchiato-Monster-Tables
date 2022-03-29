@@ -1,14 +1,14 @@
-#!/usr/bin/env node
+// #!/usr/bin/env node
 // Remember add   "type": "module", In package.json
 // let args = process.argv.slice(2); => get arg from console.
 
 import * as randomTables from './api/randomTableApi.js'
 import diceGenerator from './utiles/dicegenerator.js'
 
-let args = process.argv.slice(2);
+//let args = process.argv.slice(2);
 //let args = 2
 
-const getNumber = diceGenerator(args);
+//const getNumber = diceGenerator(args);
 
 // 1
 
