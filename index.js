@@ -1,14 +1,14 @@
-// #!/usr/bin/env node
-// Remember add   "type": "module", In package.json
+#!/usr/bin/env node
+ // Remember add   "type": "module", In package.json
 // let args = process.argv.slice(2); => get arg from console.
 
 import * as randomTables from './api/randomTableApi.js'
 import diceGenerator from './utiles/dicegenerator.js'
 
-//let args = process.argv.slice(2);
+let args = process.argv.slice(2);
 //let args = 2
 
-//const getNumber = diceGenerator(args);
+const getNumber = diceGenerator(args);
 
 // 1
 
@@ -17,195 +17,195 @@ function getStuffAndFood(number) {
     return randomTables.stuffAndFood[number];
 }
 
-// getStuffAndFood(getNumber);
+getStuffAndFood(getNumber);
 
 // 2
 
-function wealthAndValuables (number) {
+function wealthAndValuables(number) {
     console.log('Eau et consomable : ' + randomTables.wealthAndValuables[number])
     return randomTables.wealthAndValuables[number];
 }
 
-// wealthAndValuables(getNumber);
+wealthAndValuables(getNumber);
 
 
 // 3
 
-function  handToHandWeapons(number){
+function handToHandWeapons(number) {
     console.log('Arme de cac : ' + randomTables.handToHandWeapons[number])
     return randomTables.handToHandWeapons[number];
 }
 
-// handToHandWeapons(getNumber);
+handToHandWeapons(getNumber);
 
 // 4
 
-function armors(number){
+function armors(number) {
     console.log('Armures : ' + randomTables.armors[number])
     return randomTables.armors[number];
 }
 
-// armors(getNumber);
+armors(getNumber);
 
 // 5
 
 
-function rangedWeapons(number){
+function rangedWeapons(number) {
     console.log('Armes à distance : ' + randomTables.rangedWeapons[number])
     return randomTables.rangedWeapons[number];
 }
 
-// rangedWeapons(getNumber);
+rangedWeapons(getNumber);
 
 // 6
 
 
-function magicTrinkets(number){
+function magicTrinkets(number) {
     console.log('Babioles magiques : ' + randomTables.magicTrinkets[number])
     return randomTables.magicTrinkets[number];
 }
 
-// magicTrinkets(getNumber);
+magicTrinkets(getNumber);
 
 // 7
 
 
-function legacy(number){
+function legacy(number) {
     console.log('Héritage : ' + randomTables.legacy[number])
     return randomTables.legacy[number];
 }
 
-// legacy(getNumber);
+legacy(getNumber);
 
 // 8
 
 
-function faith(number){
+function faith(number) {
     console.log('Foi : ' + randomTables.faith[number])
     return randomTables.faith[number];
 }
 
-// faith(getNumber);
+faith(getNumber);
 
 // 9
 
 
-function monsterMotivations(number){
+function monsterMotivations(number) {
     console.log('Motivation des monstres : ' + randomTables.monsterMotivations[number])
     return randomTables.monsterMotivations[number];
 }
 
-// monsterMotivations(getNumber);
+monsterMotivations(getNumber);
 
 // 10
 
 
-function pnjMotivations(number){
+function pnjMotivations(number) {
     console.log('Motivation des PNJs : ' + randomTables.pnjMotivations[number])
     return randomTables.pnjMotivations[number];
 }
 
-// pnjMotivations(getNumber);
+pnjMotivations(getNumber);
 
 // 11
 
 
-function enemiesMoral(number){
+function enemiesMoral(number) {
     console.log('Morale des ennemis : ' + randomTables.enemiesMoral[number])
     return randomTables.enemiesMoral[number];
 }
 
-// enemiesMoral(getNumber);
+enemiesMoral(getNumber);
 
 // 12
 
 
-function mercenarySkills(number){
+function mercenarySkills(number) {
     console.log('Talent des mercenaires : ' + randomTables.mercenarySkills[number])
     return randomTables.mercenarySkills[number];
 }
 
-// mercenarySkills(getNumber);
+mercenarySkills(getNumber);
 
 // 13
 
 
-function dungeonExploration(number){
+function dungeonExploration(number) {
     console.log('Exploration du donjon : ' + randomTables.dungeonExploration[number])
     return randomTables.dungeonExploration[number];
 }
 
-// dungeonExploration(getNumber);
+dungeonExploration(getNumber);
 
 // 14
 
 
-function weather(number){
+function weather(number) {
     console.log('Temps : ' + randomTables.weather[number])
     return randomTables.weather[number];
 }
 
-// weather(getNumber);
+weather(getNumber);
 
 // 15
 
 
-function explorationOfTheWilderness(number){
+function explorationOfTheWilderness(number) {
     console.log('Exporation des terres sauvages : ' + randomTables.explorationOfTheWilderness[number])
     return randomTables.explorationOfTheWilderness[number];
 }
 
-// explorationOfTheWilderness(getNumber);
+explorationOfTheWilderness(getNumber);
 
 // 16
 
 
-function huntingAndGathering(number){
+function huntingAndGathering(number) {
     console.log('Chasse et ceuillette  : ' + randomTables.huntingAndGathering[number])
     return randomTables.huntingAndGathering[number];
 }
 
-// huntingAndGathering(getNumber);
+huntingAndGathering(getNumber);
 
 // 17
 
 
-function campEvents(number){
+function campEvents(number) {
     console.log('Evènement au camp : ' + randomTables.campEvents[number])
     return randomTables.campEvents[number];
 }
 
-// campEvents(getNumber);
+campEvents(getNumber);
 
 // 18
 
 
-function fastTravel(number){
+function fastTravel(number) {
     console.log('Voyage rapide : ' + randomTables.fastTravel[number])
     return randomTables.fastTravel[number];
 }
 
-// fastTravel(getNumber);
+fastTravel(getNumber);
 
 // 19
 
 
-function catchUpTheGroup(number){
+function catchUpTheGroup(number) {
     console.log('Rattraper le groupe : ' + randomTables.catchUpTheGroup[number])
     return randomTables.catchUpTheGroup[number];
 }
 
-// catchUpTheGroup(getNumber);
+catchUpTheGroup(getNumber);
 
 // 20
 
 
-function complications(number){
+function complications(number) {
     console.log('Complication : ' + randomTables.complications[number])
     return randomTables.complications[number];
 }
 
-// complications(getNumber);
+complications(getNumber);
 
 
 
@@ -214,6 +214,3 @@ function complications(number){
 
 
 ``
-
-  
-
